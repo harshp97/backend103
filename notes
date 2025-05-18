@@ -1,0 +1,4 @@
+Cluster           :  sample-test-cluster   
+Database name     : sampledb
+users             : collection name
+document          : row
