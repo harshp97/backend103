@@ -8,6 +8,7 @@ const app = express();
 
 // Construct the CORS options dynamically from the environment variable
 const allowedOrigins = process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : [];
+console.log("Allowed origins", allowedOrigins)
 
 const corsOptions = {
     origin: (origin, callback) => {
