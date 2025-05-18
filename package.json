@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",  // Changed from "npm start"
-    "dev": "nodemon index.js" //Added to run the node server using Nodemon, so that any changes in code will get automatically be reflected
+    "start": "node index.js",  
+    "dev": "nodemon index.js"
   },
   "author": "Harsh",
   "license": "ISC",
